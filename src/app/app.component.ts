@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Calculadora';
+  operandoA: number = 0;
+  operandoB: number = 0;
+  resultado: number = 0; //Aca se definen y se inicalizan en 0
+
+  sumar():void{
+    this.resultado = this.operandoA + this.operandoB;
+  }
+
+
 }
