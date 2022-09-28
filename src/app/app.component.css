@@ -1,9 +1,24 @@
-.container{
+div.container{
   color: #f28482;
+  padding: 2.5cm 5cm 6.5cm 2.5cm;
+  border: 20%;
 }
 
-.form-group{
+div.form-group{
   color: #84a59d;
 }
 
+.btn-primary {
+  background-color: #f6bd60;
+  border: #f6bd60;
+}
+
+.btn-primary:hover{
+  background-color: #f5cac3;
+  color: black;
+}
+
+body{
+  background:  -webkit-linear-gradient(90deg, #f8edeb 10%, #fec89a 90%);
+}
 
